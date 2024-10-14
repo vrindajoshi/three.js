@@ -42,7 +42,6 @@ window.addEventListener('resize', () => {
   sizes.height = window.innerHeight
   //update camera
   camera.aspect = sizes.width/sizes.height
-  camera.updateProjectionMatrix()
+  camera.updateProjectionMatrix() //21
 })
 
-//21:27
